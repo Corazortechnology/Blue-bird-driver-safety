@@ -27,4 +27,3 @@ logs/
 # temp
 tmp/
 
-models/arcface.onnx
