@@ -44,4 +44,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: blue-bird-driver
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: release.zip
